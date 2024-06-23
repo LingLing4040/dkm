@@ -1,0 +1,138 @@
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.footer__nav {
+    margin: 79px auto 0;
+    max-width: 80%;
+    background-color: white;
+}
+
+.footer__row-list {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__row-list-item {
+   
+}
+
+.footer__title {
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 5px auto;
+}
+
+.footer__column-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+.footer__link {
+    text-decoration: none;
+    color: black;
+    transition: opacity 0.3s;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.footer__link:hover {
+    opacity: 0.5;
+}
+
+.footer__text {
+    margin: 0;
+    text-align: left;
+    color: #8b8b8b;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    
+}
+
+.footer__sub {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 40px 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .footer {
+        position: static;
+    }
+
+    .footer__nav {
+        /* margin: 79px auto 0; */
+        max-width: 90%;
+    }
+    
+    .footer__row-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .footer__row-list-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer__title {
+        font-weight: bold;
+        color: black;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+    }
+    
+    .footer__column-list {
+        gap: 0;
+    }
+
+   .footer__column-list-item {
+        margin: 10px auto 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__text {
+        text-align: center;
+    }
+    
+    .footer__link {
+        text-align: center;
+    }
+
+    .footer__sub {
+       margin: 10px auto 10px;
+    }
+}

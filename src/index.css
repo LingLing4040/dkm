@@ -1,0 +1,61 @@
+@import url(../src/vendor/normalize.css);
+@import url(../src/vendor/fonts/fonts.css);
+@import url(../src/components/App/App.css);
+@import url(../src/components/Main/Main.css);
+@import url(../src/components/Header/Header.css);
+@import url(../src/components/Navigation/Navigation.css);
+@import url(../src/components/Footer/Footer.css);
+@import url(../src/components/SearchForm/SearchForm.css);
+
+
+html,
+body,
+#root {
+    /* background-color: #202020; */
+    scroll-behavior: smooth;
+}
+
+.page {
+    min-width: 320px;
+}
+
+.page__container {
+    max-width: 89.06%;
+}
+
+.main-page__container {
+    max-width: 89.06%;
+}
+
+@media screen and (max-width: 1279px) {
+    .page__container {
+        max-width: 92.2%;
+    }
+
+    .main-page__container {
+        max-width: 89.06%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page__container {
+        max-width: 91.2%;
+    }
+
+    .main-page__container {
+        max-width: 88.7%;
+    }
+}
+
+.content {
+    font-family: 'Inter', Arial, sans-serif;
+    color: white;
+    max-width: 1920px;
+    margin: 0 auto;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
