@@ -41,6 +41,19 @@
     color: black;
 }
 
+.search-form__img {
+    transition: opacity 0.3s;
+    height: 20px;
+    width: 20px;
+    margin: auto 0 auto auto;
+}
+
+.search-form__img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
 @media screen and (max-width: 1919px) {
     .search-form {
         width: 25%;
@@ -86,3 +99,4 @@
     }
 
 }
+
