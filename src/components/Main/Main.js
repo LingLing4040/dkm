@@ -7,24 +7,7 @@ function Main() {
     <div>
       <Navigation/>
         <div className='main'>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
-        <p className='main__dick'>хуй</p>
+ 
 
 
         </div>
