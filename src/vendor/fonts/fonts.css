@@ -22,10 +22,10 @@
     src: url(Inter-Black.woff2) format('woff2'), url(Inter-Black.woff) format('woff');
 }
 
-/* @font-face {
-    font-family: 'Inter';
+@font-face {
+    font-family: 'YuGothicUI-Regular';
     font-style: normal;
     font-weight: 900;
     font-display: swap;
     src: url(yugothib.woff) format('woff'), url(yugothib.ttf) format('ttf');
-} */
+}
